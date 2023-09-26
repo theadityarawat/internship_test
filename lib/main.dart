@@ -63,7 +63,7 @@ class MyApp extends StatelessWidget {
                                       SizedBox(height: 20.0), // Spacer
                                       // Text
                                       Text(
-                                        'Some Text',
+                                        'Enter the email ID associated with your account and we will send you a new password',
                                         style: TextStyle(
                                           fontSize: 18.0,
                                           color: Colors
@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
                                                 hintStyle: TextStyle(color: Colors.white),
                                                 suffixIconColor: Colors.white,
                                                 border: OutlineInputBorder(
-                                                  borderSide: BorderSide(width: 3, color: Colors.greenAccent),
+                                                  borderSide: BorderSide(color: Colors.white, style: BorderStyle.solid),
                                                 ),
                                               ),
                                               style: TextStyle(
